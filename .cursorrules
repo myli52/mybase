@@ -1,0 +1,12 @@
+When auto-generating Git commit messages, strictly follow these rules:
+
+1. The content description must be written in Chinese.
+2. Follow the Conventional Commits format: `<type>(optional-scope): <中文描述>`.
+3. Choose an accurate prefix, such as `feat`, `fix`, `docs`, `style`, `refactor`, `perf`, `test`, `build`, `ci`, `chore`, or `revert`.
+4. The Chinese description after the colon must be clear, specific, and within 25 Chinese characters.
+5. Do not add custom prefixes before the Conventional Commits type.
+6. Choose the type based on the primary purpose of the staged changes.
+7. Prefer a single-line commit message unless the staged changes are complex.
+8. Do not use vague descriptions such as `更新代码`, `修改问题`, or `优化功能`.
+9. Do not include long implementation details unless necessary.
+10. Do not end the title with punctuation.
